@@ -1,7 +1,5 @@
-<?php  
-        
-    echo("Witaj w świecie PHP!!!");    
-    
-?>
+<?php
 
-    
+echo ("Witaj w świecie PHP!!!");
+
+?>
