@@ -16,24 +16,24 @@ if (isset($_POST['liczba1']) && isset($_POST['liczba2'])) {
     $b = $_POST['liczba2'];
     $operation = $_POST['dzialanie'];
 
-    switch($operation){
+    switch ($operation) {
         case "dodawanie":
-            echo($a+$b);
+            echo ($a + $b);
             break;
         case "odejmowanie":
-            echo($a-$b);
+            echo ($a - $b);
             break;
         case "mnozenie":
-            echo($a*$b);
+            echo ($a * $b);
             break;
         case "dzielenie":
-            if($b == 0){
-                echo("Nie mozna dzielic przez 0");
-            } else{
-                echo($a/$b);
+            if ($b == 0) {
+                echo ("Nie mozna dzielic przez 0");
+            } else {
+                echo ($a / $b);
             }
         default:
-            echo("Cos poszlo nie tak");
+            echo ("Cos poszlo nie tak");
     }
 }
 ?>
